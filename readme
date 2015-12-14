@@ -1,0 +1,20 @@
+Another in the series of sunday afternoon projects
+just testing out swift. I'm a linux dev by trade, and have only super-rarely worked within the apple ecosystem
+so this is meant to be run on a linux box (I used arch for my box).
+
+compiler and stuff:
+"""
+[~]$ swift
+Welcome to Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c). Type :help for assistance.
+"""
+
+this was the challenge:
+http://rosettacode.org/wiki/Globally_replace_text_in_several_files
+
+todo:
+make a class to handle the file handle
+make sure the unsafe stuff gets deallocated
+use some threads for the bbbbonus points
+
+notes:
+I used full file paths for my files to change
